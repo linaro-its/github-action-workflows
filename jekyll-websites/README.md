@@ -6,7 +6,7 @@ There are three workflows:
 * `pullrequest.yml`
 * `push.yml`
 
-In addition to the workflow files, it is necessary to add one or more files called `.github.env-<branch name>` where the file contains these entries:
+In addition to the workflow files, it is necessary to add one or more files called `.github-env-<branch name>` where the file contains these entries:
 
 * `AWS_STATIC_SITE_PROFILE` - AWS authentication profile used for S3 and CloudFront access
 * `AWS_STATIC_SITE_URL` - name of the S3 bucket
